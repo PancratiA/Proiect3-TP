@@ -1,6 +1,6 @@
 package Utilizator;
 
-public class UserProfesor implements User {
+public class UserProfesor implements User { //clasa ce implementeaza o interfata
     private String ID;
     private static final String[] IDuri = {"TAP12", "TAP34", "TAP56"};
 
