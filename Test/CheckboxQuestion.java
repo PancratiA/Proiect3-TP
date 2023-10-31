@@ -1,7 +1,7 @@
 package Test;
 import java.util.ArrayList;
 
-public class CheckboxQuestion extends Intrebare{
+public class CheckboxQuestion extends Intrebare{ //Clasa ce extine o clasa abstracta
 
     private ArrayList<String> raspunsuriCorecte;
 
