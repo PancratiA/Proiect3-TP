@@ -14,7 +14,7 @@ Pe cand Profesorii au doar  optiunea de a administra teste.
 
 ## Pachetul Utilizator
 Pachetul User contine 2 Clase si 1 Interfata.
-<img src="Diagrama pachet Utilizator.jpg" alt="Diagrama Pachet Utilizator " title="Diagrama Pachet Utilizator">
+<img src="DiagramaUtilizator.jpg" alt="Diagrama Pachet Utilizator " title="Diagrama Pachet Utilizator">
 
 #### Interfata User
 Interfata cu scopul de definire a metodelor necesare pentru gestionarea utilizatorilor.
@@ -28,6 +28,7 @@ Clasa ce implementeaza interfata User precum si metodele sale.
 
 ## Pachetul Test
 Pachetul Test contine 4 Clase dintre care 1 Abstracta
+<img src="Diagramatest.jpg" alt="Diagrama Pachet Test " title="Diagrama Pachet Test">
 
 ####  Clasa Abstracta Intrebare
 Clasa Abstracta cu scopul de a generaliza intrebarile. Fiind o Clasa Abstracta , detine o metoda Abstracta de verificare a raspunsurilor.
@@ -50,12 +51,16 @@ Clasa ce retine intrebarile depinzand de tipul lor  cu scopul de a  le utiliza  
 
 ####  Clasa Singleton Logger 
 Clasa Singleton ce adauga functia de logging in care se tine cont de activitatea utilizatorilor si o adauga in app.log
+<img src="Diagramalogger.jpg" alt="Diagrama Clasa Singleton Logger " title="Diagrama Clasa Singleton Logger">
 
 
 ####  Clasa Fisier 
 Clasa utilizata pentru adaugarea testelor intr-un fisier de tipul textfile
+<img src="Diagramafisier.jpg" alt="Diagrama Clasa Fisier " title="Diagrama Clasa Fisier">
 
 ####  Clasa PlatformaTeste
 Clasa cu scopul de vizualizare a proiectului si utilizare a tuturor claselor mentionate anterior.
 Clasa ce contine totalitatea componentelor GUI , a validarilor de date si a stocarii.
 Clasa PlatformaTeste utilizeaza o multitudine de metode , fiecare pentru o noua fereastra din cadrul programului.
+
+<img src="Diagramaplatforma.jpg" alt="Diagrama Clasa PlatformaTeste " title="Diagrama Clasa PlatformaTeste">
