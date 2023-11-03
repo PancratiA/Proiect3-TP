@@ -14,6 +14,7 @@ Pe cand Profesorii au doar  optiunea de a administra teste.
 
 ## Pachetul Utilizator
 Pachetul User contine 2 Clase si 1 Interfata.
+<img src="Diagrama pachet Utilizator.jpg" alt="Diagrama Pachet Utilizator " title="Diagrama Pachet Utilizator">
 
 #### Interfata User
 Interfata cu scopul de definire a metodelor necesare pentru gestionarea utilizatorilor.
