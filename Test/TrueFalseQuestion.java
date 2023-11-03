@@ -1,13 +1,11 @@
 package Test;
 
-public class TrueFalseQuestion extends Intrebare {
+//Clasa cu scopul de a tipiza felul de intrebare
+public class TrueFalseQuestion extends Intrebare  { //Clasa ce extinde Clasa abstracta intrebare;
+
 
     public TrueFalseQuestion(String intrebare, String raspunsCorect) {
         super(intrebare,raspunsCorect);
-    }
-
-    public TrueFalseQuestion() {
-
     }
 
     @Override

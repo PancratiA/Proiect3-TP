@@ -4,10 +4,10 @@ public class UserElev implements User {
     private String ID;
     private String nume;
     private String prenume;
-    private static final String[] IDuri = {"STU123", "STU456", "STU789"};
+    private static final String[] parole = {"student","elev"};
 
-    public UserElev(String ID) {
-        this.ID = ID;
+    public UserElev() {
+
     }
 
     public UserElev(String ID , String nume , String prenume){
@@ -16,9 +16,9 @@ public class UserElev implements User {
         this.prenume=prenume;
 
     }
-    public boolean isValidID() {
-        for (String id : IDuri) {
-            if (ID.equals(id)) {
+    public boolean isValidPassword(String parola) { //metoda preluata din interfata
+        for (String pass : parole) {
+            if (parola.equals(pass)) {
                 return true;
             }
         }
@@ -28,5 +28,25 @@ public class UserElev implements User {
     @Override
     public String getID() {
         return ID;
+    }////metoda preluata din interfata
+
+    public void setID(String ID) {
+        this.ID = ID;
+    }
+
+    public void setNume(String nume) {
+        this.nume = nume;
+    }
+
+    public void setPrenume(String prenume) {
+        this.prenume = prenume;
+    }
+
+    public String getNume() {
+        return nume;
+    }
+
+    public String getPrenume() {
+        return prenume;
     }
 }

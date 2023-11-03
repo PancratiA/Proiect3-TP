@@ -1,8 +1,9 @@
 package Test;
 
-public abstract class Intrebare {
+public abstract class Intrebare { //Clasa Abstracta cu scopul de a generaliza intrebarile
     private String intrebare;
     private String raspunsCorect;
+
 
 
     public Intrebare(String intrebare, String raspunsCorect) {
@@ -22,16 +23,6 @@ public abstract class Intrebare {
         return "Intrebare: " + intrebare;
     }
 
-    public String adaugareIntrebareFisier(){
-
-        return intrebare;
-
-    }
-    public String adaugareRaspunsCorectFisier(){
-
-        return raspunsCorect;
-
-    }
 
     public String getIntrebare() {
         return intrebare;
