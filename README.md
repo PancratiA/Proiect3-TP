@@ -15,46 +15,46 @@ Pe cand Profesorii au doar  optiunea de a administra teste.
 ## Pachetul Utilizator
 Pachetul User contine 2 Clase si 1 Interfata.
 
-##### Interfata User
+#### Interfata User
 Interfata cu scopul de definire a metodelor necesare pentru gestionarea utilizatorilor.
-##### Clasa UserProfesor 
+#### Clasa UserProfesor 
 Clasa cu scopul de a particulariza interfata user pentru persoanele de tip Profesor;
 Clasa ce implementeaza interfata User precum si metodele sale.
 
-##### Clasa UserElev 
+#### Clasa UserElev 
 Clasa cu scopul de a particulariza interfata user pentru persoanele de tip Elev;
 Clasa ce implementeaza interfata User precum si metodele sale.
 
 ## Pachetul Test
 Pachetul Test contine 4 Clase dintre care 1 Abstracta
 
-#####  Clasa Abstracta Intrebare
+####  Clasa Abstracta Intrebare
 Clasa Abstracta cu scopul de a generaliza intrebarile. Fiind o Clasa Abstracta , detine o metoda Abstracta de verificare a raspunsurilor.
 Clasa este mostenita de catre clasele TrueFalseQuestion si CheckboxQuestion.
 
-#####  Clasa  TrueFalseQuestion
+####  Clasa  TrueFalseQuestion
 Clasa cu Scopul de a particulariza intrebarile pentru a fi utilizate cu raspunsuri de tipul 'adevarat' si 'fals'.
 Clasa ce extinde Clasa Abstracta Intrebare si implementeaza metoda sa Abstracta .
 
 
-#####  Clasa  CheckboxQuestion
+####  Clasa  CheckboxQuestion
 Clasa cu Scopul de a particulariza intrebarile pentru a fi utilizate cu  diferite raspunsuri dintre care unul singur corect.
 Clasa ce extinde Clasa Abstracta Intrebare si implementeaza metoda sa Abstracta .
 
 
-#####  Clasa  Test
+####  Clasa  Test
 Clasa ce retine intrebarile depinzand de tipul lor  cu scopul de a  le utiliza  pentru a forma teste.
 
 ## Alte Clase
 
-#####  Clasa Singleton Logger 
+####  Clasa Singleton Logger 
 Clasa Singleton ce adauga functia de logging in care se tine cont de activitatea utilizatorilor si o adauga in app.log
 
 
-#####  Clasa Fisier 
+####  Clasa Fisier 
 Clasa utilizata pentru adaugarea testelor intr-un fisier de tipul textfile
 
-#####  Clasa PlatformaTeste
+####  Clasa PlatformaTeste
 Clasa cu scopul de vizualizare a proiectului si utilizare a tuturor claselor mentionate anterior.
 Clasa ce contine totalitatea componentelor GUI , a validarilor de date si a stocarii.
 Clasa PlatformaTeste utilizeaza o multitudine de metode , fiecare pentru o noua fereastra din cadrul programului.
