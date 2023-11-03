@@ -1,6 +1,6 @@
 
 
-import Utilizator.User;
+import Utilizator.IUser;
 import Utilizator.UserElev;
 import Utilizator.UserProfesor;
 import Test.*;
@@ -18,7 +18,7 @@ public class PlatformaTeste {
     public static Font customFont = new Font("Serif", Font.PLAIN, 20); //setare font
 
     //declarari variabile globale
-    public static ArrayList<User> users = new ArrayList<>();
+    public static ArrayList<IUser> users = new ArrayList<>();
     public static String tipUser;
     private static UserProfesor profesor;
     private static UserElev elev;
@@ -141,7 +141,7 @@ public class PlatformaTeste {
 
                     boolean idExistaProf = false;
                     boolean idExistaStud = false;
-                    for (User user : users) {
+                    for (IUser user : users) {
                         if (user instanceof UserProfesor) {  //verifica daca Id-ul exista in cazul profesorilor
                             if (user.getID().equals(idString)) {
                                 profesor = (UserProfesor) user;

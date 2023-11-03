@@ -1,6 +1,6 @@
 package Utilizator;
 
-public class UserElev implements User {
+public class UserElev implements IUser {
     private String ID;
     private String nume;
     private String prenume;

@@ -1,7 +1,7 @@
 
 package Utilizator;
 
-public class UserProfesor implements User { //clasa ce implementeaza o interfata
+public class UserProfesor implements IUser { //clasa ce implementeaza o interfata
     private String ID;
     private String nume;
     private String prenume;
